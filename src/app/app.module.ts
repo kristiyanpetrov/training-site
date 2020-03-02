@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './pages/navbar/navbar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { HeaderComponent } from './pages/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
