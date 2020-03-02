@@ -1,0 +1,91 @@
+.size {
+  font-size: 13px;
+}
+
+a.color {
+  color: darkgray !important;
+}
+
+a.navColor {
+  color: black !important;
+  font-weight: bold;
+}
+
+.section {
+  height: 400px;
+  width: 100%;
+  clear: both;
+}
+
+/* Start three-boxing section */
+
+/* Container holding the image and the text */
+.wrap {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.myPrograms {
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Centered text */
+.centered {
+  width: 100%;
+  font-size: 13px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 2px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 55%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #0a0011;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  /*float: left;*/
+  width: 27.7%;
+  height: 320px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* End three-boxing section */
+
+
+.carousel-item {
+  .active,
+  .carousel-item-right,
+  .carousel-item-next {
+    display: flex !important;
+  }
+
+}
