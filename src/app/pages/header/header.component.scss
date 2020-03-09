@@ -92,6 +92,9 @@ hr {
 }
 
 .amenities {
+  background-color: black;
+  font-family: inherit;
+
   .circle {
     color: #ff5400;
     display: table-cell;
@@ -142,11 +145,11 @@ hr {
   }
 
   .fa-star {
-    font-size: 18px;
+    font-size: 13px;
   }
 
   .star-active {
-    color: #000 !important;
+    color: #FDCC0D !important;
   }
 
   .star-inactive {
