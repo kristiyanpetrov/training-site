@@ -77,7 +77,7 @@
 <!--BEGIN Amenities section-->
 <div class="card-body amenities">
   <div class="container mt-4 mb-4">
-    <p class="mt-4" style="font-size: 25px; color: white; font-weight: bold;">AMENITIES</p>
+    <p class="mt-4 headTitle">AMENITIES</p>
 
     <!--    BEGIN First row -->
     <div class="row">
@@ -168,20 +168,20 @@
     <div class="row">
 
       <div class="col-4">
-          <span class="title">LATEST NEWS</span>
-          <p class="topic mt-4" *ngFor="let news of latestNews">
-            <img src="{{ news.img }}" alt="">
-            {{ news.title }}
-            <br>
-            <br>
-            <br>
-            <br>
-            <span class="date">{{ news.publishDate }}</span>
-          </p>
+        <span class="title">LATEST NEWS</span>
+        <p class="topic mt-4" *ngFor="let news of latestNews">
+          <img src="{{ news.img }}" alt="">
+          {{ news.title }}
+          <br>
+          <br>
+          <br>
+          <br>
+          <span class="date">{{ news.publishDate }}</span>
+        </p>
       </div>
 
       <div class="col-4">
-          <p class="title">PROGRAMS RATING</p>
+        <p class="title">PROGRAMS RATING</p>
         <div *ngFor="let review of programRating">
           <p class="topic mt-4">
             <img src="{{ review.img }}" alt="">
@@ -212,10 +212,140 @@
       <div class="col-4">
         <div>
           <p class="title">VIDEO</p>
-          <iframe width="516" height="300" src="https://www.youtube.com/embed/ZM_8-c1EqOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="345" height="200" src="https://www.youtube.com/embed/ZM_8-c1EqOY" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
         </div>
       </div>
     </div>
   </div>
 </div>
 <!--END Info section-->
+
+<!--BEGIN Schedule program-->
+<div class="container schedule">
+  <table class="table table-bordered">
+    <thead>
+    <tr class="">
+      <th>MONDAY</th>
+      <th>TUESDAY</th>
+      <th>WEDNESDAY</th>
+      <th>THURSDAY</th>
+      <th>FRIDAY</th>
+      <th>SATURDAY</th>
+      <th>SUNDAY</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="test">
+        <i>Personal Training</i>
+        <br>
+        <br>
+        <p style="">09:00-11:00</p>
+        <button type="button" class="btn btnStyle">BOOK NOW</button>
+      </td>
+      <td class="test">
+        <i>Personal Training</i>
+        <br>
+        <br>
+        <p style="">09:00-11:00</p>
+        <button type="button" class="btn btnStyle">BOOK NOW</button>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="test">
+        <i>Personal Training</i>
+        <br>
+        <br>
+        <p style="">09:00-11:00</p>
+        <button type="button" class="btn btnStyle">BOOK NOW</button>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="test">
+        <i>Personal Training</i>
+        <br>
+        <br>
+        <p style="">09:00-11:00</p>
+        <button type="button" class="btn btnStyle">BOOK NOW</button>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="test">
+        <i>Personal Training</i>
+        <br>
+        <br>
+        <p style="">09:00-11:00</p>
+        <button type="button" class="btn btnStyle">BOOK NOW</button>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="test">
+        <i>Personal Training</i>
+        <br>
+        <br>
+        <p style="">09:00-11:00</p>
+        <button type="button" class="btn btnStyle">BOOK NOW</button>
+      </td>
+      <td></td>
+      <td class="test">
+        <i>Personal Training</i>
+        <br>
+        <br>
+        <p style="">09:00-11:00</p>
+        <button type="button" class="btn btnStyle">BOOK NOW</button>
+      </td>
+      <td></td>
+      <td></td>
+      <td class="test">
+        <i>Personal Training</i>
+        <br>
+        <br>
+        <p style="">09:00-11:00</p>
+        <button type="button" class="btn btnStyle">BOOK NOW</button>
+      </td>
+    </tr>
+    <tr>
+      <td class="test">
+        <i>Personal Training</i>
+        <br>
+        <br>
+        <p style="">09:00-11:00</p>
+        <button type="button" class="btn btnStyle">BOOK NOW</button>
+      </td>
+      <td class="test">
+        <i>Personal Training</i>
+        <br>
+        <br>
+        <p style="">09:00-11:00</p>
+        <button type="button" class="btn btnStyle">BOOK NOW</button>
+      </td>
+      <td></td>
+      <td></td>
+      <td class="test">
+        <i>Personal Training</i>
+        <br>
+        <br>
+        <p style="">09:00-11:00</p>
+        <button type="button" class="btn btnStyle">BOOK NOW</button>
+      </td>
+      <td class="test">
+        <i>Personal Training</i>
+        <br>
+        <br>
+        <p style="">09:00-11:00</p>
+        <button type="button" class="btn btnStyle">BOOK NOW</button>
+      </td>
+      <td></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<!--END Schedule program-->
