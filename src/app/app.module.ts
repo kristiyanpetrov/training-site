@@ -6,6 +6,8 @@ import { NavbarComponent } from './pages/navbar/navbar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { HeaderComponent } from './pages/header/header.component';
+import { GoogleMapsModule } from '@angular/google-maps';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { HeaderComponent } from './pages/header/header.component';
   imports: [
     BrowserModule,
     FontAwesomeModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    GoogleMapsModule,
   ],
   schemas: [ NO_ERRORS_SCHEMA ],
   providers: [],
