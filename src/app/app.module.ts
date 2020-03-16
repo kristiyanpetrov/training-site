@@ -7,13 +7,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { HeaderComponent } from './pages/header/header.component';
 import { GoogleMapsModule } from '@angular/google-maps';
+import { FooterComponent } from './pages/footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

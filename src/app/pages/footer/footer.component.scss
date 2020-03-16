@@ -1,0 +1,57 @@
+.style {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(233, 7, 7, 1) 0%, rgba(255, 126, 0, 1) 69%);
+  height: 150px;
+  padding: 55px 0;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+
+  .btnStyle {
+    border-radius: 20px;
+    border: 2px solid white;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: right;
+    text-transform: uppercase;
+  }
+}
+
+.nav-size {
+  font-size: 15px;
+}
+
+.info-size {
+  font-size: 13px;
+  color: darkgrey;
+  letter-spacing: 1px;
+}
+
+.aboutMe {
+  a {
+    color: white;
+    font-size: 17px;
+  }
+}
+
+.contactMe {
+  color: white !important;
+  font-weight: bold;
+}
+
+.latestTwists {
+  color: white;
+
+  p {
+    color: darkgrey;
+  }
+}
+
+.importantLinks {
+  a {
+    color: white;
+  }
+}
